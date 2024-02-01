@@ -1,3 +1,4 @@
 neural_compressor==2.1
-transformers>=4.27.4
+transformers>=4.37.0
 datasets>=2.4.0
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
